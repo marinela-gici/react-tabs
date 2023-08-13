@@ -1,0 +1,23 @@
+.content {
+    border: 1px solid #dedede;
+    width: 50%;
+    padding: 10px 20px;
+    margin-top: 10px;
+}
+
+.content :not(.active) {
+    display: none;
+}
+
+.tabs button {
+    border: 1px solid #dedede;
+    padding: 10px 20px;
+    margin-right: 10px;
+    background-color: #ffffff;
+}
+
+.tabs button.active {
+    background-color: #000000;
+    color: #ffffff;
+    transition:all .8s ease-out;
+}
